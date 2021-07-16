@@ -94,7 +94,6 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 22.5px);
   grid-template-columns: calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px);
   grid-gap: 30px 30px;
   min-height: 729px;
@@ -273,7 +272,6 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 15px);
     grid-template-columns: calc(50% - 15px) calc(50% - 15px);
   }
 }
@@ -318,7 +316,6 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
     grid-template-columns: 100%;
   }
 
@@ -357,7 +354,6 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 22.5px);
   grid-template-columns: calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px);
   grid-gap: 30px 30px;
   min-height: 411px;
@@ -528,7 +524,6 @@
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 15px);
     grid-template-columns: calc(50% - 15px) calc(50% - 15px);
   }
 
@@ -562,7 +557,6 @@
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 
@@ -608,10 +602,6 @@
 
   .u-section-3 .u-list-1 {
     width: 340px;
-  }
-
-  .u-section-3 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 
   .u-section-3 .u-text-9 {
@@ -1180,7 +1170,6 @@
 }
 
 .u-section-6 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 22.5px);
   grid-template-columns: calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px);
   grid-gap: 30px 30px;
   min-height: 460px;
@@ -1344,7 +1333,6 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 15px);
     grid-template-columns: calc(50% - 15px) calc(50% - 15px);
   }
 }
@@ -1383,7 +1371,6 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 
@@ -1438,10 +1425,6 @@
   .u-section-6 .u-list-1 {
     margin-bottom: 0;
     margin-top: 36px;
-  }
-
-  .u-section-6 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }.u-section-7 .u-sheet-1 {
   min-height: 1039px;
@@ -2354,6 +2337,7 @@
 
 .u-section-8 .u-image-1 {
   min-height: 540px;
+  background-position: 50% 50%;
 }
 
 .u-section-8 .u-container-layout-2 {
@@ -2585,6 +2569,7 @@
 
 .u-section-9 .u-image-1 {
   min-height: 650px;
+  background-position: 50% 50%;
 }
 
 @media (max-width: 1199px) {
